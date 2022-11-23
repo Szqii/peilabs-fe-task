@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.3rem 9.37rem;
+  background-color: rgb(0, 0, 0);
+}
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+.navbar .logo-container .brand-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  overflow: hidden;
+  background: linear-gradient(to right, #c50000, #c50000 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+.navbar .logo-container:hover .brand-name {
+  background-position: 0 100%;
+}
+.navbar .logo-container .logo-img {
+  width: 5.5rem;
+  margin-right: 0.5rem;
+}
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav-links .nav-link a {
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-links .nav-link a:hover {
+  color: #c50000;
+}
+
+main {
+  padding: 250px 150px;
+}/*# sourceMappingURL=style.css.map */
