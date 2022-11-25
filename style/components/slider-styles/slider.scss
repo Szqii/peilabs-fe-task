@@ -1,0 +1,52 @@
+.slider-container {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+
+  .scroll-group-title-container {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+.slides {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  cursor: pointer;
+
+  &.active {
+    cursor: grab;
+  }
+}
+
+.slide {
+  display: inline-block;
+  margin-right: 50px;
+  width: 350px;
+  height: 350px;
+  padding: 40px 30px;
+
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+
+  user-select: none;
+  white-space: normal;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

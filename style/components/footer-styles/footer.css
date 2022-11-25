@@ -1,0 +1,47 @@
+footer {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+footer .icon-container a {
+  text-decoration: none;
+}
+footer .icon-container .social-icon {
+  font-size: 30px;
+  color: #ffffff;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+footer .icon-container .social-icon:hover {
+  color: #c50000;
+}
+footer .icon-container .social-icon:last-child {
+  margin-right: 0;
+}
+footer .footer-text {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+footer .footer-text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  background: linear-gradient(to right, #c50000, #c50000 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+footer .footer-text a:hover {
+  background-position: 0 100%;
+}/*# sourceMappingURL=footer.css.map */

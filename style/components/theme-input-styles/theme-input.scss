@@ -1,0 +1,43 @@
+main {
+  .change-theme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 140px 0 90px;
+
+    .change-theme-input {
+      width: 250px;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-right: 30px;
+      margin-left: -20px; // for pixel-perfect design
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      &:focus {
+        box-shadow: 0 0 20px rgb(0, 0, 0);
+      }
+    }
+
+    .change-theme-btn {
+      width: 250px;
+      padding: 0.8rem 0;
+      text-align: center;
+      font-size: 1.2rem;
+      border-radius: 25px;
+      outline: none;
+      border: 3px solid #000000;
+      background-color: #000000;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      font-weight: 700;
+
+      &:hover {
+        background-color: #fff;
+        color: #000000;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.3rem 9.37rem;
+  background-color: rgb(0, 0, 0);
+}
+nav .logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+nav .logo-container .brand-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  overflow: hidden;
+  background: linear-gradient(to right, #c50000, #c50000 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease-in-out;
+}
+nav .logo-container:hover .brand-name {
+  background-position: 0 100%;
+}
+nav .logo-container .logo-img {
+  width: 5.5rem;
+  margin-right: 0.5rem;
+}
+nav .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav-links .nav-link a {
+  margin-right: 4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+nav .nav-links .nav-link a:hover {
+  color: #c50000;
+}
+nav .nav-links .nav-link:last-child a {
+  margin-right: 0;
+}/*# sourceMappingURL=navbar.css.map */

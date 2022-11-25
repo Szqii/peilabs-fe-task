@@ -1,0 +1,59 @@
+@media (max-width: 1024px) {
+  nav {
+    padding: 2.3rem 3rem;
+  }
+  nav .nav-links .nav-link a {
+    margin-right: 2rem;
+  }
+  main .change-theme-container {
+    margin: 100px 0 50px;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  nav .logo-container {
+    margin-bottom: 1rem;
+  }
+  nav .nav-links .nav-link a {
+    margin-right: 1rem;
+  }
+  main .change-theme-container {
+    margin: 80px 0 30px;
+  }
+  main .slider-container {
+    width: 90%;
+  }
+}
+@media (max-width: 425px) {
+  nav .nav-links .nav-link a {
+    font-size: 1rem;
+  }
+  nav .logo-container .logo-img {
+    width: 4rem;
+  }
+  nav .logo-container .brand-name {
+    font-size: 2.5rem;
+  }
+  main .container .change-theme-container {
+    margin: 20px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  main .container .change-theme-container .change-theme-input {
+    margin: 20px 0;
+  }
+  main .container .slider-container .scroll-group-title-container {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  main .container .slider-container .slides .slide {
+    width: 250px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
